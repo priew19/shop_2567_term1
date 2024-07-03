@@ -9,6 +9,6 @@
     if ($conn->connect_error){
         die("connect fail: " . $conn->connect_error );
     }
-    echo"Connect Successfully";
+    //echo"Connect Successfully";
     mysqli_set_charset($conn, "utf8");
 ?>
